@@ -1,20 +1,74 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Find Tuition | Free Tuition Media</title><link rel="stylesheet" href="css/style.css"></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Find Tuition | Free Tuition Media</title>
+  <!-- CSS Link Corrected (Removed "css/") -->
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
 <div id="siteHeader"></div>
+
 <main>
-<section class="page-hero"><div class="container"><span class="eyebrow">Tuition marketplace</span><h1>Find Tuition</h1><p>Search verified tuition opportunities by your preferred criteria.</p></div></section>
-<section class="section"><div class="container listing-layout">
-<aside class="filter-panel">
-<h3>Filter Tuitions</h3>
-<label>Keyword<input id="keyword" type="search" placeholder="e.g. English tutor"></label>
-<label>Location<select id="filterLocation"><option value="">All locations</option><option>Uttara</option><option>Mirpur</option><option>Dhanmondi</option><option>Mohammadpur</option><option>Badda</option><option>Banani</option></select></label>
-<label>Class<select id="filterClass"><option value="">All classes</option><option>Class 1-5</option><option>Class 6-8</option><option>Class 9-10</option><option>Class 11-12</option><option>University</option></select></label>
-<label>Subject<select id="filterSubject"><option value="">All subjects</option><option>English</option><option>Mathematics</option><option>Physics</option><option>Chemistry</option><option>Biology</option><option>ICT</option></select></label>
-<label>Tutor Gender<select id="filterGender"><option value="">Any</option><option>Female</option><option>Male</option><option>Any</option></select></label>
-<button id="clearFilters" class="btn full">Clear Filters</button>
-</aside>
-<div><div class="results-head"><h2>Available Tuitions</h2><span id="resultCount"></span></div><div id="tuitionList" class="listing"></div></div>
-</div></section>
-</main><div id="siteFooter"></div><script src="js/data.js"></script><script src="js/app.js"></script></body></html>
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Tuition marketplace</span>
+    <h1>Find Tuition</h1>
+    <p>Search verified tuition opportunities by your preferred criteria.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container listing-layout">
+    <aside class="filter-panel">
+      <h3>Filter Tuitions</h3>
+      <label>Keyword<input id="keyword" type="search" placeholder="e.g. English tutor"></label>
+      <label>Location
+        <select id="filterLocation">
+          <option value="">All locations</option>
+          <option>Uttara</option><option>Mirpur</option><option>Dhanmondi</option>
+          <option>Mohammadpur</option><option>Badda</option><option>Banani</option>
+        </select>
+      </label>
+      <label>Class
+        <select id="filterClass">
+          <option value="">All classes</option>
+          <option>Class 1-5</option><option>Class 6-8</option><option>Class 9-10</option>
+          <option>Class 11-12</option><option>University</option>
+        </select>
+      </label>
+      <label>Subject
+        <select id="filterSubject">
+          <option value="">All subjects</option>
+          <option>English</option><option>Mathematics</option><option>Physics</option>
+          <option>Chemistry</option><option>Biology</option><option>ICT</option>
+        </select>
+      </label>
+      <label>Tutor Gender
+        <select id="filterGender">
+          <option value="">Any</option>
+          <option>Female</option><option>Male</option><option>Any</option>
+        </select>
+      </label>
+      <button id="clearFilters" class="btn full">Clear Filters</button>
+    </aside>
+
+    <div>
+      <div class="results-head">
+        <h2>Available Tuitions</h2>
+        <span id="resultCount"></span>
+      </div>
+      <div id="tuitionList" class="listing"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<div id="siteFooter"></div>
+
+<!-- JS Links Corrected (Removed "js/") -->
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
