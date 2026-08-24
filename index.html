@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Tuition Media | Find Tutors & Tuitions</title>
+  <meta name="description" content="Free Tuition Media helps students and guardians find tutors and tutors find tuition opportunities in Bangladesh.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">FT</span>
+      <span><b>Free Tuition</b><small>MEDIA</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="main-nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="tuitions.html">Find Tuition</a>
+      <a href="tutors.html">Find Tutor</a>
+      <a href="post-tuition.html">Post a Tuition</a>
+      <a href="about.html">About</a>
+      <a class="login-link" href="login.html">Login</a>
+      <a class="btn btn-small" href="register.html">Register</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Bangladesh's tuition connection platform</span>
+      <h1>Find the right <span>tutor</span> for every learning goal.</h1>
+      <p>Search tuition opportunities, discover tutors and connect with the right match based on location, class and subject.</p>
+      <div class="hero-actions">
+        <a class="btn" href="tuitions.html">Find Tuition</a>
+        <a class="btn btn-outline" href="post-tuition.html">Post a Tuition</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>1,250+</strong><span>Active Tuitions</span></div>
+        <div><strong>850+</strong><span>Registered Tutors</span></div>
+        <div><strong>64</strong><span>Areas Covered</span></div>
+      </div>
+    </div>
+    <div class="search-card">
+      <div class="search-card-head">
+        <span class="search-icon">⌕</span>
+        <div><h3>Find a Tuition</h3><p>Filter opportunities quickly.</p></div>
+      </div>
+      <form id="heroSearch" class="search-form">
+        <label>Location
+          <select name="location">
+            <option value="">Any location</option>
+            <option>Uttara</option><option>Mirpur</option><option>Dhanmondi</option>
+            <option>Mohammadpur</option><option>Badda</option><option>Banani</option>
+          </select>
+        </label>
+        <label>Class
+          <select name="className">
+            <option value="">Any class</option>
+            <option>Class 1-5</option><option>Class 6-8</option><option>Class 9-10</option>
+            <option>Class 11-12</option><option>University</option>
+          </select>
+        </label>
+        <label>Subject
+          <select name="subject">
+            <option value="">Any subject</option>
+            <option>English</option><option>Mathematics</option><option>Physics</option>
+            <option>Chemistry</option><option>Biology</option><option>ICT</option>
+          </select>
+        </label>
+        <button class="btn full" type="submit">Search Tuition</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <div><span class="eyebrow">Latest opportunities</span><h2>Latest Tuition Jobs</h2></div>
+      <a href="tuitions.html">View all →</a>
+    </div>
+    <div id="featuredTuitions" class="cards-grid"></div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="container">
+    <div class="section-heading centered"><div><span class="eyebrow">Simple process</span><h2>How Free Tuition Media Works</h2><p>Designed to make the tuition search less complicated.</p></div></div>
+    <div class="steps">
+      <div class="step"><span>01</span><h3>Search</h3><p>Filter tuition opportunities by area, class and subject.</p></div>
+      <div class="step"><span>02</span><h3>Apply</h3><p>Choose a suitable tuition and submit your application.</p></div>
+      <div class="step"><span>03</span><h3>Connect</h3><p>After verification, connect with the relevant student or tutor.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta-box">
+    <div><span class="eyebrow">For guardians & students</span><h2>Need a tutor?</h2><p>Post your tuition requirement and let suitable tutors find you.</p></div>
+    <a class="btn light" href="post-tuition.html">Post a Tuition</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">FT</span><span><b>Free Tuition</b><small>MEDIA</small></span></a><p>A platform connecting students, guardians and tutors across Bangladesh.</p></div>
+    <div><h4>Platform</h4><a href="tuitions.html">Find Tuition</a><a href="tutors.html">Find Tutor</a><a href="post-tuition.html">Post Tuition</a></div>
+    <div><h4>Company</h4><a href="about.html">About Us</a><a href="contact.html">Contact</a><a href="blog.html">Blog</a></div>
+    <div><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></div>
+  </div>
+  <div class="container copyright">© <span id="year"></span> Free Tuition Media. All rights reserved.</div>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

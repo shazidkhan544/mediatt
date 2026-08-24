@@ -1,0 +1,16 @@
+const tuitionData = [
+ {id:"FTM-10245",title:"English Tutor Required",location:"Uttara",area:"Sector 10",className:"Class 9-10",subject:"English",medium:"English Version",studentGender:"Female",tutorGender:"Female",days:4,duration:"1.5 Hours",salary:5000,status:"NEW",description:"A female English tutor is required for a Class 9 student. Preference will be given to experienced tutors."},
+ {id:"FTM-10244",title:"Mathematics Tutor Required",location:"Mirpur",area:"Mirpur 10",className:"Class 6-8",subject:"Mathematics",medium:"Bangla Version",studentGender:"Male",tutorGender:"Any",days:4,duration:"1.5 Hours",salary:4000,status:"NEW",description:"Looking for a mathematics tutor for regular home tuition."},
+ {id:"FTM-10243",title:"Physics & Chemistry Tutor",location:"Dhanmondi",area:"Dhanmondi 27",className:"Class 11-12",subject:"Physics",medium:"English Version",studentGender:"Male",tutorGender:"Any",days:3,duration:"2 Hours",salary:7000,status:"ACTIVE",description:"Science group student needs support in Physics and Chemistry."},
+ {id:"FTM-10242",title:"ICT Tutor Required",location:"Badda",area:"Aftabnagar",className:"Class 9-10",subject:"ICT",medium:"English Version",studentGender:"Female",tutorGender:"Female",days:3,duration:"1.5 Hours",salary:4500,status:"ACTIVE",description:"ICT tutor needed for a Class 10 student."},
+ {id:"FTM-10241",title:"English & Mathematics Tutor",location:"Mohammadpur",area:"Town Hall",className:"Class 1-5",subject:"English",medium:"Bangla Version",studentGender:"Female",tutorGender:"Female",days:5,duration:"1.5 Hours",salary:4500,status:"ACTIVE",description:"Primary level student requires help with English and Mathematics."},
+ {id:"FTM-10240",title:"University Mathematics Tutor",location:"Banani",area:"Banani",className:"University",subject:"Mathematics",medium:"English Version",studentGender:"Male",tutorGender:"Any",days:2,duration:"2 Hours",salary:6000,status:"ACTIVE",description:"University student looking for mathematics support."}
+];
+const tutorData = [
+ {id:"T-1001",name:"Arif Hasan",university:"United International University",subject:"Mathematics",location:"Uttara",experience:"3 Years",rating:"4.8",initials:"AH",bio:"Experienced mathematics tutor focusing on concept building and exam preparation."},
+ {id:"T-1002",name:"Nusrat Jahan",university:"Dhaka University",subject:"English",location:"Dhanmondi",experience:"4 Years",rating:"4.9",initials:"NJ",bio:"English tutor specializing in school and admission preparation."},
+ {id:"T-1003",name:"Sakib Ahmed",university:"BUET",subject:"Physics",location:"Mirpur",experience:"2 Years",rating:"4.7",initials:"SA",bio:"Physics tutor with a focus on problem solving and fundamentals."},
+ {id:"T-1004",name:"Mim Rahman",university:"North South University",subject:"ICT",location:"Badda",experience:"3 Years",rating:"4.8",initials:"MR",bio:"ICT tutor for school and college level students."},
+ {id:"T-1005",name:"Tanvir Hossain",university:"BRAC University",subject:"Chemistry",location:"Mohammadpur",experience:"5 Years",rating:"4.9",initials:"TH",bio:"Chemistry tutor experienced with HSC preparation."},
+ {id:"T-1006",name:"Farzana Akter",university:"Dhaka University",subject:"Mathematics",location:"Banani",experience:"2 Years",rating:"4.6",initials:"FA",bio:"Mathematics tutor for primary and secondary students."}
+];
